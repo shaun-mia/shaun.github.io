@@ -244,6 +244,7 @@ footer p a {
     letter-spacing: 0.245em;
     color: black;
     margin-bottom: 2%;
+    text-align: center;
 }
 
 .work_details {
@@ -253,6 +254,7 @@ footer p a {
     letter-spacing: 0.245em;
     color: black;
     margin-bottom: 2%;
+    text-align: justify;
 }
 
 .work_part_1 img {
