@@ -5,14 +5,18 @@
     box-sizing: border-box;
 }
 
-/* navigation bar */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navigation Bar */
 nav {
     display: flex;
-    justify-content: space-around;
-    padding: 2% 6%;
-    background-color: #538392;
-    width: 100%;
-    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #538392; /*blue */
 }
 
 nav ul {
@@ -24,24 +28,22 @@ nav ul {
 
 nav li {
     list-style: none;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 .section {
     text-decoration: none;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff; /* White */
 }
 
 .nav-title a {
     font-family: 'Pattaya', sans-serif;
     font-weight: 400;
-    font-size: 34px;
+    font-size: 30px;
     text-decoration: none;
-    letter-spacing: 0.245em;
-    color: #000000;
+    color: #ffffff; /* White */
 }
 
 /* my bio */
