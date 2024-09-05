@@ -279,13 +279,12 @@ nav li {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
-    /* Ensure the box is vertically centered */
+    min-height: 80vh; /* Ensure the box is vertically centered */
     padding: 50px 20px;
 }
 
 .contact_box {
-    background-color: #6295A2;
+    background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 30px;
@@ -297,7 +296,7 @@ nav li {
 .contact_header {
     font-size: 32px;
     margin-bottom: 20px;
-    color: #ffffff;
+    color: #1a237e;
 }
 
 .contact_info {
@@ -320,8 +319,7 @@ nav li {
 
 .social_icons a {
     display: inline-block;
-    width: 40px;
-    /* Adjust based on preference */
+    width: 40px; /* Adjust based on preference */
     height: 40px;
 }
 
