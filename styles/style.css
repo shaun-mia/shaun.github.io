@@ -16,7 +16,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
-    background-color: #538392; /*blue */
+    background-color: #538392;
+    /*blue */
 }
 
 nav ul {
@@ -35,15 +36,16 @@ nav li {
     text-decoration: none;
     font-weight: 600;
     font-size: 18px;
-    color: #ffffff; /* White */
+    color: #ffffff;
+    /* White */
 }
 
 .nav-title a {
-    font-family: 'Pattaya', sans-serif;
-    font-weight: 400;
-    font-size: 30px;
     text-decoration: none;
-    color: #ffffff; /* White */
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    /* White */
 }
 
 /* my bio */
@@ -58,7 +60,8 @@ nav li {
     padding: 0.75% 3.25%;
     margin-bottom: 2%;
     display: block;
-    margin: 0 auto; /* Center button horizontally */
+    margin: 0 auto;
+    /* Center button horizontally */
 }
 
 .bio_button:hover {
@@ -75,7 +78,8 @@ nav li {
     font-weight: 400;
     font-size: 24px;
     letter-spacing: 0.1em;
-    text-align: justify; /* Center text alignment */
+    text-align: justify;
+    /* Center text alignment */
     color: #FFFFFF;
     margin-bottom: 3%;
     max-width: 100%;
@@ -103,8 +107,9 @@ nav li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4% 6%;
-    background-color: #F5F5F5; /* Light background color */
+    padding: 4% 6%; 
+    background-color: #F5F5F5;
+    /* Light background color */
 }
 
 .about_me {
@@ -114,7 +119,8 @@ nav li {
 }
 
 .about_me img {
-    width: 250px; /* Adjust based on preference */
+    width: 250px;
+    /* Adjust based on preference */
     border-radius: 50%;
     margin-bottom: 20px;
 }
@@ -122,7 +128,8 @@ nav li {
 .about_me_header {
     font-size: 32px;
     margin-bottom: 20px;
-    color: #333; /* Darker color for header */
+    color: #333;
+    /* Darker color for header */
 }
 
 .about_me_text {
@@ -190,15 +197,30 @@ nav li {
 }
 
 .social_media_icons img {
-    width: 40px; /* Adjust based on preference */
+    width: 40px;
+    /* Adjust based on preference */
     height: 40px;
 }
+
 /* Portfolio Page */
+
+.portfolio_heading {
+    text-align: center;
+    color: #538392;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    /* Adjust as needed */
+}
+
 .portfolio_container {
     display: flex;
+    flex-wrap: wrap;
+    /* Allows items to wrap to the next line */
     justify-content: center;
     padding: 4% 6%;
-    background-color: #F5F5F5; /* Light background color */
+    background-color: #F5F5F5;
+    /* Light background color */
 }
 
 .portfolio_box {
@@ -206,7 +228,10 @@ nav li {
     border: 1px solid #dcdcdc;
     border-radius: 8px;
     padding: 20px;
-    max-width: 800px;
+    width: calc(50% - 20px);
+    /* Adjust width to fit two items per row with margin */
+    margin: 10px;
+    /* Add margin to create space between items */
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -220,7 +245,8 @@ nav li {
 .portfolio_title {
     font-size: 28px;
     margin-bottom: 20px;
-    color: #333; /* Darker color for title */
+    color: #333;
+    /* Darker color for title */
 }
 
 .portfolio_description {
@@ -247,17 +273,19 @@ nav li {
     background-color: #507a8f;
 }
 
+
 /* Contact Page */
 .contact_page {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh; /* Ensure the box is vertically centered */
+    min-height: 80vh;
+    /* Ensure the box is vertically centered */
     padding: 50px 20px;
 }
 
 .contact_box {
-    background-color: #ffffff;
+    background-color: #6295A2;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 30px;
@@ -269,7 +297,7 @@ nav li {
 .contact_header {
     font-size: 32px;
     margin-bottom: 20px;
-    color: #1a237e;
+    color: #ffffff;
 }
 
 .contact_info {
@@ -292,7 +320,8 @@ nav li {
 
 .social_icons a {
     display: inline-block;
-    width: 40px; /* Adjust based on preference */
+    width: 40px;
+    /* Adjust based on preference */
     height: 40px;
 }
 
@@ -300,11 +329,12 @@ nav li {
     width: 100%;
     height: auto;
 }
+
 /* footer_part */
 .footer_part {
     display: flex;
     gap: 2%;
-    background-image: linear-gradient(to top, white, #6295A2);
+    background-image: linear-gradient(to top, #6295A2, #ffffff);
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 5%;
@@ -344,8 +374,8 @@ nav li {
     font-size: 36px;
     letter-spacing: 0.245em;
     text-align: center;
-    background-color: #6295A2;
-    color: #FFFFFF;
+    background-color: #ffffff;
+    color: #000000;
     margin-bottom: 2%;
     margin-bottom: 0%;
     padding-top: 2%;
@@ -361,14 +391,29 @@ footer p {
 
 footer p a {
     text-decoration: none;
-    color: gray;
+    color: rgb(255, 255, 255);
     font-size: larger;
 }
 
+.contact {
+    background: #6295A2;
+    color: rgba(0, 0, 0, 0.57);
+    border-radius: 1px;
+    font-weight: 200;
+    font-size: 24px;
+    text-align: center;
+    border: 0;
+    padding: 0.75% 3.25%;
+    margin-bottom: 2%;
+    display: block;
+    margin: 0 auto;
+    /* Center button horizontally */
+}
+
 .rights_reserved p {
-    font-family: 'Pattaya';
-    color: aliceblue;
-    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     font-weight: 100;
     font-size: 14px;
     padding: 0.5%;
@@ -376,7 +421,10 @@ footer p a {
 
 /* Media Queries for Responsive Design */
 @media (max-width: 1024px) {
-    .home_box, .portfolio_box, .social_media_box {
+
+    .home_box,
+    .portfolio_box,
+    .social_media_box {
         max-width: 100%;
         margin: 10px;
     }
@@ -402,7 +450,10 @@ footer p a {
 }
 
 @media (max-width: 768px) {
-    .home_box, .portfolio_box, .social_media_box {
+
+    .home_box,
+    .portfolio_box,
+    .social_media_box {
         padding: 15px;
     }
 
