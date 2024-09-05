@@ -5,32 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shaun Khan </title>
+    <title>Shaun Mia</title>
 
-    <!-- font style-->
+    <!-- Font style -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins&display=swap" rel="stylesheet">
 
-    <!-- font awesome -->
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- css files -->
+    <!-- CSS files -->
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
-    <!-- navigation bar -->
+    <!-- Navigation Bar -->
     <header class="header">
         <nav>
-            <h2 class="nav-title"><a href="./index.html">Shaun Khan </a></h2>
+            <h2 class="nav-title"><a href="./index.html">Shaun Mia</a></h2>
             <ul class="navbar">
                 <li><a class="section" href="./Portfolio.html">Portfolio</a></li>
                 <li><a class="section" href="./Gallery.html">Gallery</a></li>
                 <li><a class="section" href="./Contact.html">Contact</a></li>
-
             </ul>
         </nav>
     </header>
@@ -42,60 +41,50 @@
             <h2 class="about_me_header">About Me</h2>
             <p class="about_me_text">
                 I am Shaun Mia, a dedicated data analyst with a passion for transforming raw data into
-                meaningful insights.
-                I hold a Bachelor's degree in Computer Science & Engineering and have hands-on experience in Excel,
-                Power BI, Python, SQL,
-                and machine learning. My work involves real-life projects, focusing on data visualization, statistical
-                analysis,
-                and dashboard creation. I am a fast learner and an AI enthusiast, always eager to explore new
-                technologies and contribute
-                to innovative solutions. My goal is to leverage my skills to drive data-driven decision-making in a
+                meaningful insights. I hold a Bachelor's degree in Computer Science & Engineering and have hands-on
+                experience in Excel,
+                Power BI, Python, SQL, and machine learning. My work involves real-life projects, focusing on data
+                visualization, statistical
+                analysis, and dashboard creation. I am a fast learner and an AI enthusiast, always eager to explore new
+                technologies and contribute to innovative solutions. My goal is to leverage my skills to drive
+                data-driven decision-making in a
                 dynamic organization.
             </p>
-                <button class="bio_button"><a
-                        href="./Shaun_Mia_Resume.pdf"
-                        target="_blank">Download CV</a></button>
+            <button class="bio_button"><a href="./Shaun_Mia_Resume.pdf" target="_blank">Download CV</a></button>
         </div>
     </section>
-    <!-- Project Section -->
+
+    <!-- Projects Section -->
     <section class="home_container">
+        <div class="portfolio_container">
+            <div class="portfolio_box">
+                <img src="./image/Dashboard_4.png" alt="Portfolio Image">
+                <h2 class="portfolio_title">Projects</h2>
+                <p class="portfolio_description">
+                    As a Data Analyst with a strong foundation in AI, I specialize in uncovering
+                    patterns and trends that drive decision-making. My portfolio showcases real-world projects,
+                    including dashboard creation, statistical data analysis, and machine learning applications.
+                    With expertise in tools like Excel, Power BI, Python, and SQL, I deliver insights that empower
+                    businesses to thrive.
+                </p>
+                <a href="./Portfolio.html" class="project_button">View Portfolio</a>
+            </div>
 
-        <div class="home_box project_box">
-            <img src="./image/Dashboard_4.png" alt="Portfolio Image">
-            <h2 class="project_header">Projects</h2>
-            <p class="home_box_description">
-                As a Data Analyst with a strong foundation in AI, I specialize in uncovering
-                patterns and trends that drive decision-making.
-                My portfolio showcases real-world projects, including dashboard creation, statistical data analysis, and
-                machine learning applications.
-                With expertise in tools like Excel, Power BI, Python, and SQL, I deliver insights that empower
-                businesses to thrive.
-            </p>
-            <a href="./Portfolio.html" class="project_button">View Portfolio</a>
+            <div class="portfolio_box">
+                <img src="./image/photo.jpg" alt="Portfolio Image">
+                <h2 class="portfolio_title">Photograph</h2>
+                <p class="portfolio_description">
+                    Photography is a powerful medium to showcase your creativity. Whether it's experimenting with
+                    lighting, angles, or subjects, there are endless possibilities to express your unique vision.
+                    Consider playing with color, texture, and composition to create visually striking images that
+                    capture emotion and mood.
+                </p>
+                <a href="./Gallery.html" class="project_button">View Gallery</a>
+            </div>
         </div>
-
     </section>
 
-    <!-- Photograph  Section -->
-    <section class="home_container">
-
-        <div class="home_box project_box">
-            <img src="./image/photo.jpg" alt="Portfolio Image">
-            <h2 class="project_header">Photograph</h2>
-            <a href="./Gallery.html" class="project_button">View Portfolio</a>
-            <p class="home_box_description">
-                Photography is a powerful medium to showcase your creativity.
-                Whether it's experimenting with lighting, angles, or subjects,
-                there are endless possibilities to express your unique vision.
-                Consider playing with color, texture, and composition to create visually
-                striking images that capture emotion and mood.
-            </p>
-        </div>
-
-    </section>
-
-
-    <!-- footer section -->
+    <!-- Footer Section -->
     <h3 class="footer_head">Follow On Social Media</h3>
     <section class="footer_part">
         <img class="image_1" src="./image/shaun_1.jpg">
@@ -104,7 +93,7 @@
         <img class="image_4" src="./image/shaun_4.jpg">
         <img class="image_5" src="./image/shaun_5.jpg">
     </section>
-    <footer id="contact">
+    <footer class="contact">
         <p>
             <a href="Tel:+8801976133731"><i class="fa-solid fa-phone"></i></a>
             <a href="mailto:shaunmia.cse@gmail.com"><i class="fa-solid fa-envelope"></i></a>
@@ -115,8 +104,11 @@
             <a href="https://www.linkedin.com/in/shaun-mia" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         </p>
     </footer>
+
+
+
     <div class="rights_reserved">
-        <p>©shaun_mia</p>
+        <p>&copy; 2024 Shaun Khan. All rights reserved.</p>
     </div>
 </body>
 
