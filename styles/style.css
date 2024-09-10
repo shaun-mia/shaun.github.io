@@ -417,64 +417,38 @@ footer p a {
     padding: 0.5%;
 }
 
-/* Media Queries for Responsive Design */
-@media (max-width: 1024px) {
+
+/* Responsive Design Adjustments */
+
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
 
     .home_box,
-    .portfolio_box,
-    .social_media_box {
-        max-width: 100%;
+    .portfolio_box {
+        width: 100%;
+        padding: 15px;
         margin: 10px;
     }
 
-    .about_me_header {
-        font-size: 28px;
+    .about_me img {
+        width: 150px;
     }
 
-    .about_me_text {
-        font-size: 18px;
+    .portfolio_container {
+        padding: 10px;
     }
 
-    .home_box_description,
-    .portfolio_description {
-        font-size: 16px;
-    }
-
-    .home_box_button,
-    .project_button {
-        font-size: 16px;
-        padding: 8px 16px;
+    .home_box img,
+    .portfolio_box img {
+        width: 100%;
     }
 }
 
-@media (max-width: 768px) {
-
-    .home_box,
-    .portfolio_box,
-    .social_media_box {
-        padding: 15px;
-    }
-
-    .about_me_header {
-        font-size: 24px;
-    }
-
-    .about_me_text {
-        font-size: 16px;
-    }
-
-    .home_box_description,
-    .portfolio_description {
-        font-size: 14px;
-    }
-
-    .home_box_button,
-    .project_button {
-        font-size: 14px;
-        padding: 6px 12px;
-    }
-}
-
+/* Mobile (480px and below) */
 @media (max-width: 480px) {
     nav {
         flex-direction: column;
@@ -492,11 +466,26 @@ footer p a {
     }
 
     .about_me img {
-        width: 150px;
+        width: 100px;
     }
 
     .home_box img,
     .portfolio_box img {
         width: 100%;
+    }
+
+    .home_box,
+    .portfolio_box {
+        width: 100%;
+    }
+
+    .bio_text {
+        font-size: 18px;
+    }
+    
+    .project_button,
+    .home_box_button {
+        font-size: 14px;
+        padding: 8px 12px;
     }
 }
